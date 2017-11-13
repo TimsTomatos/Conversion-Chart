@@ -4,7 +4,8 @@ function conversion(temp) {
 
 var subtractThenDivide = conversion(20);
 document.write(subtractThenDivide);
-
+var tableId = document.getElementById('table');
+tableId.insertRow(20).insertCell(20).innerHTML=fahrenheitnumber;
 
 
 function conversion(temp) {

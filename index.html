@@ -1,23 +1,32 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<script src="functions.js"></script>
+	<!--<script src="functions.js"></script>-->
 	<link rel="stylesheet" type="text/css" href="styles.css">
 	<title></title>
 </head>
 <body>
-	<div id = "table">
+	<div id = "chart">
 		<h1>Conversion Chart</h1>
 		<table style="width:100%">
 	</div>
-	<div id = "chart">
+	<div id = "table">
 		<tr>
 			<th>Fahrenheit</th>
 			<td>Celsius</td>
 		</tr>
 		<tr>
 			<th>20</th>
-			<td></td>
+			<td>
+				<script>
+					function conversion(temp) {
+						return (temp - 32) / 1.8 + "<br>";
+					}
+
+					var subtractThenDivide = conversion(25);
+					document.write(subtractThenDivide);
+				</script>
+			</td>
 		</tr>
 		<tr>
 			<th>25</th>
