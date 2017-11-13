@@ -2,3 +2,27 @@ table, th, tr {
     border: 1px solid black;
     border-collapse: collapse;
 }
+
+th, td {
+    padding: 5px;
+    text-align: left;
+    color: black;
+}
+
+h1 {
+	color: white;
+}
+
+#title {
+	font-size: 50px;
+	padding-left: 15%; 
+
+}
+
+#chart {
+	position: absolute;
+	top: 50%;
+	left: 40%;
+	margin: auto;
+	background: maroon;
+}

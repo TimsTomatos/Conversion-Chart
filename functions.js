@@ -1,3 +1,4 @@
+/*
 function conversion(temp) {
 	return (temp - 32) / 1.8;
 }
@@ -14,6 +15,6 @@ function conversion(temp) {
 
 var subtractThenDivide = conversion(25);
 document.write(subtractThenDivide);
-
+(*/  
 
 
